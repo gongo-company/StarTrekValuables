@@ -1,0 +1,19 @@
+{
+    "name": "StarTrekValuables",
+    "rootNamespace": "StarTrekValuables",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Assembly-CSharp.dll",
+        "0Harmony.dll",
+        "REPOLib.dll",
+        "Bepinex.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
