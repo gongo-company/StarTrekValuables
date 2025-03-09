@@ -139,7 +139,7 @@ public class UtilsWindow : EditorWindow
 
         var playButton = new Button();
         playButton.text = "Launch (without building)";
-        playButton.clicked += () => {  };
+        playButton.clicked += LaunchGame;
         rootVisualElement.Add(playButton);
 
         rootVisualElement.Add(new VisualElement() { style = { height = 16f } });
@@ -305,6 +305,7 @@ public class UtilsWindow : EditorWindow
     public static void LaunchGame()
     {
         ProcessStartInfo startInfo = new ProcessStartInfo();
+        startInfo.FileName = GaleExePath;
         startInfo.Arguments = $"--game {GaleGame} --profile \"{GaleProfileName}\" --no-gui --launch";
 
         try

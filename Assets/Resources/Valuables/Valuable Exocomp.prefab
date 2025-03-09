@@ -251,8 +251,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   durabilityPreset: {fileID: 11400000, guid: d1a8b7c7d74114e48b7cb69a75139c7d, type: 2}
-  valuePreset: {fileID: 11400000, guid: 45ecba70eae189744ae6adff12153dd8, type: 2}
-  physAttributePreset: {fileID: 11400000, guid: f9b7b7cae3a0f3c4a857747681305d62, type: 2}
+  valuePreset: {fileID: 11400000, guid: c1c6acb790f53354196a892b641070cc, type: 2}
+  physAttributePreset: {fileID: 11400000, guid: 0f1465c6bb65f3c418b5e27d2cedf5a9, type: 2}
   audioPreset: {fileID: 11400000, guid: fe304b1ce3adfba4ca391de3a7b42051, type: 2}
   audioPresetPitch: 1
   particleColors:
