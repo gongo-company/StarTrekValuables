@@ -59,7 +59,6 @@ sysinfo.txt
 *.apk
 *.aab
 *.unitypackage
-*.unitypackage.meta
 *.app
 
 # Crashlytics generated file
@@ -71,11 +70,19 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
-/Assets/Assets_Vanilla
-/Assets/Assets_Zeh
-Assets/Assets_Zeh.meta
-Assets/Assets_Vanilla.meta
-/ModBuilds
-/Packages
-/Assets/Plugins
-Assets/Plugins.meta
+
+.vscode/
+.idea/
+
+# Patcher specific
+/[Aa]ssets/REPO/Game/*
+*.dll*
+/AssetRipper/*
+/AssetRipperOutput/*
+/Assets/REPO
+Assets/REPO.meta
+/Assets/TextMesh Pro
+Assets/TextMesh Pro.meta
+/Output
+/REPO
+steps-results.json

@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: ea201e8b7bc4b9543a38e6810d5df439
+  productGUID: 132f80d99e26e9349b2c8dec19de41c2
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: REPOAssetBundleBuilder
+  productName: REPOModSDKProject
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -160,8 +160,7 @@ PlayerSettings:
   resetResolutionOnWindowResize: 0
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
-  applicationIdentifier:
-    Standalone: com.DefaultCompany.REPOAssetBundleBuilder
+  applicationIdentifier: {}
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -646,19 +645,19 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: UNITY_POST_PROCESSING_STACK_V2;REPO
-    EmbeddedLinux: UNITY_POST_PROCESSING_STACK_V2;REPO
-    GameCoreXboxOne: UNITY_POST_PROCESSING_STACK_V2;REPO
-    Nintendo Switch: UNITY_POST_PROCESSING_STACK_V2;REPO
-    PS4: UNITY_POST_PROCESSING_STACK_V2;REPO
-    PS5: UNITY_POST_PROCESSING_STACK_V2;REPO
-    QNX: UNITY_POST_PROCESSING_STACK_V2;REPO
-    Stadia: UNITY_POST_PROCESSING_STACK_V2;REPO
-    Standalone: UNITY_POST_PROCESSING_STACK_V2;REPO
-    VisionOS: UNITY_POST_PROCESSING_STACK_V2;REPO
-    WebGL: UNITY_POST_PROCESSING_STACK_V2;REPO
-    XboxOne: UNITY_POST_PROCESSING_STACK_V2;REPO
-    tvOS: UNITY_POST_PROCESSING_STACK_V2;REPO
+    Android: UNITY_POST_PROCESSING_STACK_V2
+    EmbeddedLinux: UNITY_POST_PROCESSING_STACK_V2
+    GameCoreXboxOne: UNITY_POST_PROCESSING_STACK_V2
+    Nintendo Switch: UNITY_POST_PROCESSING_STACK_V2
+    PS4: UNITY_POST_PROCESSING_STACK_V2
+    PS5: UNITY_POST_PROCESSING_STACK_V2
+    QNX: UNITY_POST_PROCESSING_STACK_V2
+    Stadia: UNITY_POST_PROCESSING_STACK_V2
+    Standalone: ENABLE_BEPINEX;UNITY_POST_PROCESSING_STACK_V2
+    VisionOS: UNITY_POST_PROCESSING_STACK_V2
+    WebGL: UNITY_POST_PROCESSING_STACK_V2
+    XboxOne: UNITY_POST_PROCESSING_STACK_V2
+    tvOS: UNITY_POST_PROCESSING_STACK_V2
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
@@ -681,7 +680,7 @@ PlayerSettings:
     tvOS: 1
   incrementalIl2cppBuild: {}
   suppressCommonWarnings: 1
-  allowUnsafeCode: 0
+  allowUnsafeCode: 1
   useDeterministicCompilation: 1
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 1
@@ -690,14 +689,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: REPOAssetBundleBuilder
+  metroPackageName: REPOModSDKProject
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: REPOAssetBundleBuilder
+  metroApplicationDescription: REPOModSDKProject
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -766,11 +765,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 585f65bb-589d-4fea-97cc-b21e49c8ac0e
+  cloudProjectId: 
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: REPOAssetBundleBuilder
-  organizationId: jt-johnson
+  projectName: 
+  organizationId: 
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

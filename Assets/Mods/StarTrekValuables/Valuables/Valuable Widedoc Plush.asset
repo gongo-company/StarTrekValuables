@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1521619359, guid: 6b4263caeb45d524885eb08b94fa7116, type: 3}
+  m_Name: Valuable Widedoc Plush
+  m_EditorClassIdentifier: 
+  _prefab: {fileID: 114711129401861592, guid: cca79d592fd2c4f44b80bb5059a87ee1, type: 3}
+  _valuablePresets:
+  - Valuables - Arctic
+  - Valuables - Manor
